@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>나영석 게임 퀴즈</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎠 나영석 게임 퀴즈</h1>
+
+  <div id="category-section">
+    <button onclick="selectCategory('logo')">로고</button>
+    <button onclick="selectCategory('flag')">국기</button>
+    <button onclick="selectCategory('general')">상식</button>
+    <button onclick="selectCategory('initial')">초성</button>
+    <button onclick="selectCategory('saying')">사자성어</button>
+    <button onclick="selectCategory('proverb')">속담</button>
+    <button onclick="selectCategory('person')">인물</button>
+    <button onclick="selectCategory('object')">물건</button>
+    <button onclick="selectCategory('character')">캐릭터</button>
+    <button onclick="selectCategory('capital')">수도</button>
+    <button onclick="selectCategory('landmark')">랜드마크</button>
+    <button onclick="selectCategory('animal')">동물</button>
+  </div>
+
+  <div id="set-section" class="hidden">
+    <p>세트 번호를 선택하세요:</p>
+    <button onclick="startGame(1)">세트 1</button>
+    <button onclick="startGame(2)">세트 2</button>
+    <button onclick="startGame(3)">세트 3</button>
+    <button onclick="startGame(4)">세트 4</button>
+    <button onclick="startGame(5)">세트 5</button>
+  </div>
+
+  <div id="quiz-section" class="hidden">
+    <div class="logo-container">
+      <img id="logo" src="" alt="문제 이미지" />
+    </div>
+    <div class="button-container">
+      <button onclick="prevImage()">이전 문제</button>
+      <button onclick="nextImage()">다음 문제</button>
+      <button onclick="revealAnswer()">정답 보기</button>
+    </div>
+    <div id="answerBox">
+      <p><strong>정답:</strong> <span id="answerText"></span></p>
+    </div>
+  </div>
+
+  <div id="general-quiz-section" class="hidden">
+    <h2>상식 퀴즈</h2>
+    <p id="general-question"></p>
+    <div id="general-choices"></div>
+    <p id="general-feedback" style="font-weight:bold;"></p>
+    <div class="button-container">
+      <button onclick="prevGeneralQuestion()">이전 문제</button>
+      <button onclick="nextGeneralQuestion()">다음 문제</button>
+    </div>
+  </div>
+
+  <div id="capital-quiz-section" class="hidden">
+    <h2>수도 퀴즈</h2>
+    <p id="capital-question"></p>
+    <div id="capital-choices"></div>
+    <p id="capital-feedback" style="font-weight:bold;"></p>
+    <div class="button-container">
+      <button onclick="prevCapitalQuestion()">이전 문제</button>
+      <button onclick="nextCapitalQuestion()">다음 문제</button>
+    </div>
+  </div>
+
+  <div id="initial-quiz-section" class="hidden">
+    <h2>초성 퀴즈</h2>
+    <div id="initial-hint" style="font-size: 60px; font-weight: bold; margin: 30px 0;"></div>
+    <div class="button-container">
+      <button onclick="prevInitialQuestion()">이전 문제</button>
+      <button onclick="nextInitialQuestion()">다음 문제</button>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

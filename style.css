@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .logo-container {
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #logo {
+    max-height: 300px;
+    max-width: 100%;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+  }
+  
+  #answerBox {
+    margin-top: 20px;
+    display: none;
+  }
+  
+  #category-section {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    max-width: 900px;
+    margin: 40px auto;
+  }
+  
