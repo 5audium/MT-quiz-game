@@ -4,10 +4,10 @@
           { file: "image/set1/chanel.png", answer: "샤넬" },
           { file: "image/set1/mcdonalds.png", answer: "맥도날드" },
           { file: "image/set1/nike.png", answer: "나이키" },
-          { file: "image/set1/rolex.png", answer: "롤렉스" },
+          { file: "image/set1/ROLEX.png", answer: "롤렉스" },
           { file: "image/set1/starbucks.png", answer: "스타벅스" },
           { file: "image/set1/youtube.png", answer: "유튜브" },
-          { file: "image/set1/montblanc.png", answer: "몽블랑" }
+          { file: "image/set1/MONTBLANC.png", answer: "몽블랑" }
         ],
         2: [
           { file: "image/set2/apple.png", answer: "애플" },
