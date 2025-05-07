@@ -234,51 +234,51 @@
         { file: "person/set5/kimjongkook.jpg", answer: "김종국" }
       ]
     },
-    object: {
+   object: {
       1: [
-        { file: "object/set1/pizzasaver.png", answer: "피자 세이버" },
-        { file: "object/set1/bubblewrap.png", answer: "버블랩" },
-        { file: "object/set1/lavacon.png", answer: "라바콘" },
-        { file: "object/set1/plasticglove.png", answer: "비닐 장갑" },
-        { file: "object/set1/stretchfilm.png", answer: "포장용 스트레치 필름" },
-        { file: "object/set1/cleanmask.png", answer: "크린룸 방진 마스크" },
-        { file: "object/set1/gonposalage.png", answer: "곤포 사일리지" }
+        { file: "object/set1/KakaoTalk_20250507_131900333.jpg", answer: "엔진오일" },
+        { file: "object/set1/KakaoTalk_20250507_131900333_01.jpg", answer: "K1" },
+        { file: "object/set1/KakaoTalk_20250507_131900333_02.jpg", answer: "가스조절기" },
+        { file: "object/set1/KakaoTalk_20250507_131900333_03.jpg", answer: "플로피 디스크" },
+        { file: "object/set1/KakaoTalk_20250507_131900333_04.jpg", answer: "가로본능" },
+        { file: "object/set1/KakaoTalk_20250507_131900333_05.jpg", answer: "매직홀" },
+        { file: "object/set1/KakaoTalk_20250507_131900333_06.jpg", answer: "송판" }
       ],
       2: [
-        { file: "object/set2/nametagclip.png", answer: "명찰 집게" },
-        { file: "object/set2/cabletie.png", answer: "전선 타이 (케이블 타이)" },
-        { file: "object/set2/antistaticclip.png", answer: "정전기 방지 클립" },
-        { file: "object/set2/stickypad.png", answer: "미끄럼 방지 필름" },
-        { file: "object/set2/vibrationpager.png", answer: "무선 진동 호출벨" },
-        { file: "object/set2/sealingstrip.png", answer: "이물질 방지 실링 스트립" },
-        { file: "object/set2/nozzlecoupler.png", answer: "고압세척기 노즐 커플러" }
+        { file: "object/set2/KakaoTalk_20250507_131900333_07.jpg", answer: "스프링쿨러" },
+        { file: "object/set2/KakaoTalk_20250507_131900333_08.jpg", answer: "칠판지우개(수동)청소기" },
+        { file: "object/set2/KakaoTalk_20250507_131900333_09.jpg", answer: "가베" },
+        { file: "object/set2/KakaoTalk_20250507_131900333_10.jpg", answer: "스파출러" },
+        { file: "object/set2/KakaoTalk_20250507_131900333_11.jpg", answer: "실리카겔" },
+        { file: "object/set2/KakaoTalk_20250507_131900333_12.jpg", answer: "랩칼" },
+        { file: "object/set2/KakaoTalk_20250507_131900333_13.jpg", answer: "테트라포드" }
       ],
       3: [
-        { file: "object/set3/cushionwrap.png", answer: "택배 박스용 완충재" },
-        { file: "object/set3/mousebungee.png", answer: "마우스 번지" },
-        { file: "object/set3/partitionshield.png", answer: "가림막 파티션" },
-        { file: "object/set3/vinylcurtain.png", answer: "바람막이 커튼 (비닐 커튼)" },
-        { file: "object/set3/doorcloser.png", answer: "자동 문닫힘 장치 (도어클로저)" },
-        { file: "object/set3/pvccoatedwire.png", answer: "PVC 코팅 철사" },
-        { file: "object/set3/floormatpin.png", answer: "제초매트 고정핀" }
+        { file: "object/set3/KakaoTalk_20250507_131900333_14.jpg", answer: "회전초" },
+        { file: "object/set3/KakaoTalk_20250507_131900333_15.jpg", answer: "양말코핀" },
+        { file: "object/set3/KakaoTalk_20250507_131900333_16.jpg", answer: "반합" },
+        { file: "object/set3/KakaoTalk_20250507_131900333_17.jpg", answer: "가름끈" },
+        { file: "object/set3/KakaoTalk_20250507_131900333_18.jpg", answer: "미러볼" },
+        { file: "object/set3/KakaoTalk_20250507_131900333_19.jpg", answer: "차단봉" },
+        { file: "object/set3/KakaoTalk_20250507_131900333_20.jpg", answer: "커멘드센터" }
       ],
       4: [
-        { file: "object/set4/powerreel.png", answer: "전기 릴선" },
-        { file: "object/set4/plasticpallet.png", answer: "플라스틱 팔레트" },
-        { file: "object/set4/spongehandle.png", answer: "스펀지 손잡이 커버" },
-        { file: "object/set4/siliconlid.png", answer: "실리콘 컵뚜껑" },
-        { file: "object/set4/dripclip.png", answer: "드립백 커피 걸이 클립" },
-        { file: "object/set4/aglet.png", answer: "에글릿" },
-        { file: "object/set4/snapringpliers.png", answer: "스냅 링 플라이어" }
+        { file: "object/set4/KakaoTalk_20250507_131900333_21.jpg", answer: "부표" },
+        { file: "object/set4/KakaoTalk_20250507_131900333_22.jpg", answer: "짤주머니" },
+        { file: "object/set4/KakaoTalk_20250507_131900333_23.jpg", answer: "이젤" },
+        { file: "object/set4/KakaoTalk_20250507_131900333_24.jpg", answer: "꿀뜨개/허니디퍼" },
+        { file: "object/set4/KakaoTalk_20250507_131900333_25.jpg", answer: "라바콘" },
+        { file: "object/set4/KakaoTalk_20250507_131900333_26.jpg", answer: "의사봉" },
+        { file: "object/set4/KakaoTalk_20250507_131900333_27.jpg", answer: "기표소" }
       ],
       5: [
-        { file: "object/set5/minifan.png", answer: "미니 집게선풍기" },
-        { file: "object/set5/cresent.png", answer: "크레센트" },
-        { file: "object/set5/lacker.jpg", answer: "라커고리리" },
-        { file: "object/set5/tangerinetie.png", answer: "귤 락" },
-        { file: "object/set5/garhm.jpg", answer: "가름끈" },
-        { file: "object/set5/rashtap.jpg", answer: "래시탑" },
-        { file: "object/set5/baran.png", answer: "바란" }
+        { file: "object/set5/KakaoTalk_20250507_131906235.jpg", answer: "화재감지기" },
+        { file: "object/set5/KakaoTalk_20250507_131906235_01.jpg", answer: "에어컴프레셔" },
+        { file: "object/set5/KakaoTalk_20250507_131906235_02.jpg", answer: "롱패딩" },
+        { file: "object/set5/KakaoTalk_20250507_131906235_03.jpg", answer: "그래픽카드" },
+        { file: "object/set5/KakaoTalk_20250507_131906235_04.jpg", answer: "드림캐쳐" },
+        { file: "object/set5/KakaoTalk_20250507_131906235_05.jpg", answer: "스크래쳐" },
+        { file: "object/set5/KakaoTalk_20250507_131906235_06.jpg", answer: "타이어" }
       ]
     },
     capital: {
