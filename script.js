@@ -11,6 +11,9 @@ let generalIndex = 0;
 let initialSet = [];
 let initialIndex = 0;
 
+let sayingSet = [];
+let sayingIndex = 0;
+
 function selectCategory(category) {
   currentCategory = category;
   document.getElementById("category-section").classList.add("hidden");
@@ -24,6 +27,8 @@ function startGame(setNumber) {
     startGeneralQuiz(setNumber);
   } else if (currentCategory === "initial") {
     startInitialQuiz(setNumber);
+    else if (currentCategory === "saying") {
+    startSayingQuiz(setNumber); 
   } else {
     currentSet = imageSets[currentCategory][setNumber];
     currentIndex = 0;
@@ -138,6 +143,37 @@ function prevGeneralQuestion() {
   generalIndex = (generalIndex - 1 + generalSet.length) % generalSet.length;
   showGeneralQuestion();
 }
+function startSayingQuiz(setNumber) {
+  sayingSet = imageSets.saying[setNumber];
+  sayingIndex = 0;
+  document.getElementById("set-section").classList.add("hidden");
+  document.getElementById("saying-quiz-section").classList.remove("hidden");
+  showSayingQuestion();
+}
+
+function showSayingQuestion() {
+  const q = sayingSet[sayingIndex];
+  document.getElementById("saying-question").innerText = q.question;
+  document.getElementById("saying-feedback").innerText = "";
+}
+
+function nextSayingQuestion() {
+  if (++sayingIndex >= sayingSet.length) {
+    alert("세트의 모든 문제가 끝났습니다. 다시 세트를 골라주세요!");
+    document.getElementById("saying-quiz-section").classList.add("hidden");
+    document.getElementById("set-section").classList.remove("hidden");
+    return;
+  }
+  showSayingQuestion();
+}
+
+function prevSayingQuestion() {
+  sayingIndex = (sayingIndex - 1 + sayingSet.length) % sayingSet.length;
+  showSayingQuestion();
+}
+
+function revealSayingAnswer() {
+  document.getElementById("saying-feedback").innerText = "정답: " + sayingSet[sayingIndex].answer;
 
 // 초성 퀴즈
 function startInitialQuiz(setNumber) {
