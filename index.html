@@ -76,6 +76,17 @@
       <button onclick="nextInitialQuestion()">다음 문제</button>
     </div>
   </div>
+  
+  <div id="saying-quiz-section" class="hidden">
+  <h2>사자성어 퀴즈</h2>
+  <p id="saying-question"></p>
+  <p id="saying-feedback" style="font-weight:bold;"></p>
+  <div class="button-container">
+    <button onclick="prevSayingQuestion()">이전 문제</button>
+    <button onclick="nextSayingQuestion()">다음 문제</button>
+    <button onclick="revealSayingAnswer()">정답 보기</button>
+  </div>
+  </div>
 
   <script src="data.js"></script>
   <script src="script.js"></script>
