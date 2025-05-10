@@ -27,7 +27,7 @@ function startGame(setNumber) {
     startGeneralQuiz(setNumber);
   } else if (currentCategory === "initial") {
     startInitialQuiz(setNumber);
-    else if (currentCategory === "saying") {
+  }else if (currentCategory === "saying") {
     startSayingQuiz(setNumber); 
   } else {
     currentSet = imageSets[currentCategory][setNumber];
@@ -174,6 +174,7 @@ function prevSayingQuestion() {
 
 function revealSayingAnswer() {
   document.getElementById("saying-feedback").innerText = "정답: " + sayingSet[sayingIndex].answer;
+}
 
 // 초성 퀴즈
 function startInitialQuiz(setNumber) {
