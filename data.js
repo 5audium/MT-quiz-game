@@ -422,53 +422,53 @@
         { file: "landmark/set5/nationalassembly.png", answer: "국회의사당" }
       ]
     },
-        saying: {
-  1: [
-    { question: "고 진 ◻ ◻", choices: [], answer: "고진감래" },
-    { question: "동 문 ◻ ◻", choices: [], answer: "동문서답" },
-    { question: "대 기 ◻ ◻", choices: [], answer: "대기만성" },
-    { question: "전 화 ◻ ◻", choices: [], answer: "전화위복" },
-    { question: "일 석 ◻ ◻", choices: [], answer: "일석이조" },
-    { question: "작 심 ◻ ◻", choices: [], answer: "작심삼일" },
-    { question: "연 목 ◻ ◻", choices: [], answer: "연목구어" }
-  ],
-  2: [
-    { question: "구 사 ◻ ◻", choices: [], answer: "구사일생" },
-    { question: "유 유 ◻ ◻", choices: [], answer: "유유상종" },
-    { question: "자 업 ◻ ◻", choices: [], answer: "자업자득" },
-    { question: "이 심 ◻ ◻", choices: [], answer: "이심전심" },
-    { question: "천 고 ◻ ◻", choices: [], answer: "천고마비" },
-    { question: "속 수 ◻ ◻", choices: [], answer: "속수무책" },
-    { question: "미 생 ◻ ◻", choices: [], answer: "미생지신" }
-  ],
-  3: [
-    { question: "새 옹 ◻ ◻", choices: [], answer: "새옹지마" },
-    { question: "청 출 ◻ ◻", choices: [], answer: "청출어람" },
-    { question: "유 비 ◻ ◻", choices: [], answer: "유비무환" },
-    { question: "불 편 ◻ ◻", choices: [], answer: "불편부당" },
-    { question: "망 양 ◻ ◻", choices: [], answer: "망양지탄" },
-    { question: "각 주 ◻ ◻", choices: [], answer: "각주구검" },
-    { question: "수 주 ◻ ◻", choices: [], answer: "수주대토" }
-  ],
-  4: [
-    { question: "풍 전 ◻ ◻", choices: [], answer: "풍전등화" },
-    { question: "등 하 ◻ ◻", choices: [], answer: "등하불명" },
-    { question: "진 퇴 ◻ ◻", choices: [], answer: "진퇴양난" },
-    { question: "만 장 ◻ ◻", choices: [], answer: "만장일치" },
-    { question: "십 년 ◻ ◻", choices: [], answer: "십년감수" }, // 수정된 항목
-    { question: "이 열 ◻ ◻", choices: [], answer: "이열치열" },
-    { question: "견 강 ◻ ◻", choices: [], answer: "견강부회" }
-  ],
-  5: [
-    { question: "오 비 ◻ ◻", choices: [], answer: "오비이락" },
-    { question: "다 다 ◻ ◻", choices: [], answer: "다다익선" },
-    { question: "회 자 ◻ ◻", choices: [], answer: "회자정리" },
-    { question: "삼 고 ◻ ◻", choices: [], answer: "삼고초려" },
-    { question: "동 병 ◻ ◻", choices: [], answer: "동병상련" },
-    { question: "온 고 ◻ ◻", choices: [], answer: "온고지신" },
-    { question: "우 공 ◻ ◻", choices: [], answer: "우공이산" }
-  ]
-},
+    saying: {
+      1: [
+        { question: "고 진 ◻ ◻", choices: [], answer: "고진감래" },
+        { question: "동 문 ◻ ◻", choices: [], answer: "동문서답" },
+        { question: "대 기 ◻ ◻", choices: [], answer: "대기만성" },
+        { question: "전 화 ◻ ◻", choices: [], answer: "전화위복" },
+        { question: "일 석 ◻ ◻", choices: [], answer: "일석이조" },
+        { question: "작 심 ◻ ◻", choices: [], answer: "작심삼일" },
+        { question: "연 목 ◻ ◻", choices: [], answer: "연목구어" }
+      ],
+      2: [
+        { question: "구 사 ◻ ◻", choices: [], answer: "구사일생" },
+        { question: "유 유 ◻ ◻", choices: [], answer: "유유상종" },
+        { question: "자 업 ◻ ◻", choices: [], answer: "자업자득" },
+        { question: "이 심 ◻ ◻", choices: [], answer: "이심전심" },
+        { question: "천 고 ◻ ◻", choices: [], answer: "천고마비" },
+        { question: "속 수 ◻ ◻", choices: [], answer: "속수무책" },
+        { question: "미 생 ◻ ◻", choices: [], answer: "미생지신" }
+      ],
+      3: [
+        { question: "새 옹 ◻ ◻", choices: [], answer: "새옹지마" },
+        { question: "청 출 ◻ ◻", choices: [], answer: "청출어람" },
+        { question: "유 비 ◻ ◻", choices: [], answer: "유비무환" },
+        { question: "불 편 ◻ ◻", choices: [], answer: "불편부당" },
+        { question: "망 양 ◻ ◻", choices: [], answer: "망양지탄" },
+        { question: "각 주 ◻ ◻", choices: [], answer: "각주구검" },
+        { question: "수 주 ◻ ◻", choices: [], answer: "수주대토" }
+      ],
+      4: [
+        { question: "풍 전 ◻ ◻", choices: [], answer: "풍전등화" },
+        { question: "등 하 ◻ ◻", choices: [], answer: "등하불명" },
+        { question: "진 퇴 ◻ ◻", choices: [], answer: "진퇴양난" },
+        { question: "만 장 ◻ ◻", choices: [], answer: "만장일치" },
+        { question: "십 년 ◻ ◻", choices: [], answer: "십년감수" }, // 수정된 항목
+        { question: "이 열 ◻ ◻", choices: [], answer: "이열치열" },
+        { question: "견 강 ◻ ◻", choices: [], answer: "견강부회" }
+      ],
+      5: [
+        { question: "오 비 ◻ ◻", choices: [], answer: "오비이락" },
+        { question: "다 다 ◻ ◻", choices: [], answer: "다다익선" },
+        { question: "회 자 ◻ ◻", choices: [], answer: "회자정리" },
+        { question: "삼 고 ◻ ◻", choices: [], answer: "삼고초려" },
+        { question: "동 병 ◻ ◻", choices: [], answer: "동병상련" },
+        { question: "온 고 ◻ ◻", choices: [], answer: "온고지신" },
+        { question: "우 공 ◻ ◻", choices: [], answer: "우공이산" }
+      ]
+    },
     initial: {
     1: [
       { hint: "ㄱㅅ" }, { hint: "ㅂㅂ" }, { hint: "ㅈㅈ" }, { hint: "ㅁㄴ" }, { hint: "ㄴㅈ" }, { hint: "ㅅㅅ" }, { hint: "ㅊㅅ" }
